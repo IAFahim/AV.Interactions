@@ -1,0 +1,27 @@
+{
+  "name": "com.av.interactions",
+  "version": "1.0.0",
+  "displayName": "AV Interactions",
+  "description": "Trigger-based interaction system for GameObject collision and event handling in Unity.",
+  "unity": "2021.3",
+  "author": {
+    "name": "IAFahim",
+    "email": "iafahim.dev@gmail.com",
+    "url": "https://github.com/IAFahim"
+  },
+  "keywords": [
+    "interactions",
+    "triggers",
+    "collision",
+    "events"
+  ],
+  "license": "MIT",
+  "category": "Gameplay",
+  "dependencies": {},
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAFahim/AV.Interactions"
+  },
+  "licensesUrl": "https://github.com/IAFahim/AV.Interactions/blob/main/LICENSE.md"
+}

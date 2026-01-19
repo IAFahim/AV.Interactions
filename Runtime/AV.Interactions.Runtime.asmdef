@@ -1,0 +1,4 @@
+name: AV.Interactions.Runtime
+rootNamespace: AV.Interactions
+autoReferenced: true
+
