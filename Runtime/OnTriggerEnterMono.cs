@@ -1,10 +1,9 @@
 using UnityEngine;
 
-[HelpURL("https://github.com/IAFahim/AV.Interactions")]
-[AddComponentMenu("AV/Interactions/OnTriggerEnterMono")]
-
 namespace AV.Interactions.Runtime
 {
+    [HelpURL("https://github.com/IAFahim/AV.Interactions")]
+    [AddComponentMenu("AV/Interactions/OnTriggerEnterMono")]
     public class OnTriggerEnterMono : MonoBehaviour
     {
         [SerializeField] private GameObject currentEntity;
