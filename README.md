@@ -1,62 +1,28 @@
-# AV Interactions
+# AV.Interactions
 
-Trigger-based interaction system for GameObject collision and event handling in Unity.
+![Header](documentation_header.svg)
 
-![Unity Version](https://img.shields.io/badge/unity-2021.3%2B-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)
+[![Unity](https://img.shields.io/badge/Unity-2022.3%2B-000000.svg?style=flat-square&logo=unity)](https://unity.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
-## Features
+Event-driven collision wrappers for decoupling logic.
 
-- **Professional Quality**: Built following Unity Package Manager best practices
-- **Well Documented**: Comprehensive documentation and examples
-- **Production Ready**: Tested and optimized for production use
+## ✨ Features
 
-## Installation
+- **OnTriggerEnterMono**: Exposes `OnTriggerEnter` as a UnityEvent.
+- **Decoupling**: Allows logic scripts to subscribe to physics events without requiring physics code.
 
-Install this package via Unity Package Manager by adding this line to your `Packages/manifest.json`:
+## 📦 Installation
 
-```json
-"com.av.interactions": "https://github.com/IAFahim/AV.Interactions.git"
-```
+Install via Unity Package Manager (git URL).
 
-Or install via Git URL in Unity Package Manager:
-1. Open Unity Package Manager (Window > Package Manager)
-2. Click the + icon > Add package from git URL
-3. Enter: `https://github.com/IAFahim/AV.Interactions.git`
+## 🚀 Usage
 
-## Requirements
+1. Create a Child GameObject with a Collider (IsTrigger).
+2. Add `OnTriggerEnterMono`.
+3. Hook up the `OnEnter` event in the Inspector.
 
-- Unity 2021.3 or higher
-- Dependencies will be automatically resolved by Unity Package Manager
+## ⚠️ Status
 
-## Usage
-
-Add components from the `AV Interactions` package to your GameObjects via the Component menu:
-`Component > AV > Interactions > [Component Name]`
-
-For detailed usage instructions, see the [Samples](Samples~) included with this package.
-
-## API Documentation
-
-For complete API reference and documentation, visit: https://github.com/IAFahim/AV.Interactions
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
-
-## License
-
-MIT License - see [LICENSE.md](LICENSE.md) for details.
-
-## Author
-
-IAFahim - [https://github.com/IAFahim](https://github.com/IAFahim)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Support
-
-For issues and questions, please use the [GitHub Issues](https://github.com/IAFahim/AV.Interactions/issues) page.
+- 🧪 **Tests**: Missing.
+- 📘 **Samples**: None.
